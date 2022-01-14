@@ -44,7 +44,7 @@ class App extends Component {
         </div>
         <div className="row">
           <div className="col s3">
-            <PlayerList player={this.state.players} updateCurrentPlayer={this.updateCurrentPlayer} />
+            <PlayerList players={this.state.players} updateCurrentPlayer={this.updateCurrentPlayer} />
           </div>
           <div className="col s9"><PlayerSingle /></div>
         </div>
